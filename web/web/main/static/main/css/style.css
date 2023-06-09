@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://sun9-43.userapi.com/impg/SKEnxTKUQAWKnf73hiRlkF6RQDz35Wf51_Q-_A/P8syeRjomMY.jpg?size=2560x1708&quality=95&sign=715efb992b868cf2f9065913c43ff5e4&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    background-attachment: fixed;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+
+h1,h2{
+font-family:sans-serif;
+font-weight:400;
+}
+
+a{
+text-decoration:none;
+}
+
+li{
+list-style:none;
+}
+
+.flex{
+display:flex;
+text-decoration: none;
+}
+
+.flex_space{
+display: flex;
+justify-content: space-between;
+}
+
+.primary-btn{
+border: none;
+outline: none;
+transitions: 0.5s;
+cursor: pointer;
+padding: 0 20px 0 20px;
+background: #535250;
+color: white;
+font-family: 'Alegreya Sans', sans-serif;
+}
+
+.container{
+max-width: 85%;
+margin: auto;
+}
+
+/*------header-------*/
+
+
+.header{
+background-color: #232420;
+height: 10vh;
+line-height: 10vh;
+padding: 0 20px;
+}
+
+.header img {
+margin: 20px 0;
+}
+
+.header ul {
+display: inline-block;
+}
+
+.header ul li{
+display: inline-block;
+text-transform:uppercase;
+}
+
+
+.header ul li a{
+color: #ffffff;
+margin: 0 10px;
+transitions: 0.5s;
+ text-decoration: none;
+ font-size: 18px;
+}
+
+.header ul li a:hover{
+color: #f4ce92;
+}
+
+.header ul li button:hover{
+color: #f4ce92;
+}
+
+.header i {
+margin: 0 20px;
+}
+
+.header button {
+padding: 13px 50 px;
+}
+
+.logo{
+margin: -25px 5px;
+}
+
+/*-----работа с гридами-------*/
+
+
+.box-2 {
+  background-color: rgba(35, 36, 32, 0.5);
+  display: grid;
+  grid-row-gap: 20px;
+  grid-colum-gap: 20px;
+    position: relative;
+}
+
+.box-2:hover {
+  transition: all 0.8s ease;
+  transform: scale(1.1);
+}
+
+.rooms {
+  padding: 100px;
+  display: grid;
+  height: 200vh;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-colums: repeat(6, 1fr);
+  grid-row-gap: 4em;
+
+}
+
+p1{
+font-family: 'Playfair Display SC', serif;
+font-weight:550;
+font-size:1.8em;
+color: #d3d3d1;
+}
+
+p2{
+font-family: 'Alegreya Sans', sans-serif;
+font-weight:800;
+font-size:1.7em;
+color: #d3d3d1;
+}
+
+p3{
+font-family: 'Playfair Display SC', serif;
+font-weight:400;
+font-size:1.9em;
+color: #d3d3d1;
+}
+
+p4{
+font-family: 'Alegreya Sans', sans-serif;
+font-weight:600;
+font-size:1.1em;
+color: #d3d3d1;
+}
+
+
+
+.home{
+padding-top: 160px;
+padding-left: 300px;
+font-size: 5.5em;
+color: white;
+font-family: 'Cormorant Garamond', serif;
+}
+
+.login a{
+text-decoration:none;
+
+}
+
+span{
+color:white;
+}
+
+form1 {
+padding:20px;
+text-align: center;
+}
+/*Форму входа делаем*/
+
+form {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.logform {
+  padding: 20px 40px 30px 40px;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: rgba(74, 74, 72, 0.7);
+  border-radius: 5px;
+}
+
+.logform h2 {
+  margin: 30px 0;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 550;
+  font-size: 2.2em;
+}
+
+.log label {
+  margin: 15px 60px 0px 30px;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.7em;
+}
+
+.log input#id_username {
+  margin: 30px 40px 10px 0px;
+}
+
+.log input#id_password {
+  margin: 30px 40px 40px -10px;
+}
+
+
+.button_v input {
+  font-size: 1.5em;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+}
+
+.button_v input:hover {
+  background-color: #0055aa;
+  cursor: pointer;
+}
+
+.login-form__note {
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+  color: #555;
+}
+/*---------------------Регистрация--------------------*/
+.reg_form {
+  flex-direction: row;
+  background-color: rgba(74, 74, 72, 0.7);
+  margin: -30px 400px 0px 400px;
+}
+
+.reg_form h2 {
+  padding: 20px;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 550;
+  font-size: 2.2em;
+}
+
+.reg_form label {
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.7em;
+  flex: 1;
+  margin-right: 10px;
+}
+
+
+.reg_form input {
+padding: 7px 15px;
+margin-bottom: 15px;
+}
+
+.reg_form input#id_username {
+  margin-top: 10px;
+}
+
+.reg_form input#id_password1 {
+  margin-left: 100px;
+}
+
+.reg_form input#id_password2 {
+  margin-right: 50px;
+}
+
+.reg_form input#id_email {
+  margin-left: 110px;
+}
+
+.reg_form input#id_name{
+  margin-left: 130px;
+}
+
+.reg_form input#id_surname {
+  margin-left: 85px;
+}
+
+.reg_form input#id_patronymic {
+  margin-left: 85px;
+}
+
+.reg_form input#id_phone {
+  margin-left: 10px;
+}
+
+.reg_form input[type="submit"] {
+  margin-top: 20px;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(222, 184, 135, 0.9);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.cen {
+display:flex;
+justify-content: space-between;
+position: relative;
+}
+
+.bron {
+padding:20px;
+border: none;
+outline: none;
+background: white;
+color: #535250;
+}
+
+.bron:hover {
+background: #f4ce92;
+}
+
+.box-3 {
+  background-color: rgba(35, 36, 32, 0.5);
+  display: grid;
+  grid-row-gap: 10px;
+  grid-colum-gap: 10px;
+}
+
+.req {
+  padding: 100px;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(6, 2fr);
+  grid-template-colums: repeat(6, 2fr);
+  grid-row-gap: 3em;
+}
+
+/* Работа с выводом заявок сотрудникам*/
+
+.box-1 {
+  background-color: rgba(35, 36, 32, 0.6);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px; /* добавляем отступ между блоками */
+  position: relative; /* устанавливаем позиционирование элемента, чтобы его потомки могли быть позиционированы относительно него */
+  padding-top: 40px; /* добавляем верхний отступ для контента, чтобы освободить место под номер заявки */
+}
+
+.box-1 form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -20px 80px 0px 0px;
+}
+
+.box-1 p{
+color: white;
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 1.7em;
+font-weight: bold;
+}
+
+.box-1 button[type="submit"] {
+  background-color:rgba(222, 184, 135, 0.7); /* цвет фона */
+  border: none; /* убираем границу */
+  color: white; /* цвет текста */
+  padding: 10px 20px; /* внутренний отступ */
+  text-align: center; /* выравниваем текст по центру */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /* размер шрифта */
+  cursor: pointer;
+  margin:10px;
+  border-radius: 5px; /* закругляем углы */
+}
+.button_v .primary-btn{
+padding:10px 50px;
+font-size: 1.7em;
+background-color:rgba(222, 184, 135, 0.9);
+}
+
+.logform a{
+color:rgba(222, 184, 135, 0.9);
+text-decoration: none;
+}
+
+.login-form__note a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* стили для списка выбора статуса */
+.box-1 select {
+  position: relative;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: #333; /* изменяем цвет текста */
+  cursor: pointer; /* изменяем курсор при наведении */
+}
+
+.box-1 .btn-primary {
+  background-color: rgba(0, 0, 0, 0.3); /* новый цвет фона */
+  color: #FFFFFF; /* новый цвет текста */
+  border: none;
+}
+
+/* Оформление стрелки выпадающего списка */
+select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; /* делаем стрелку некликабельной */
+}
+
+
+.box-1 h2 {
+  position: absolute; /* устанавливаем абсолютное позиционирование для номера заявки */
+  top: 0; /* устанавливаем отступ сверху равным нулю */
+  right: 0; /* устанавливаем отступ справа равным нулю */
+  padding: 10px; /* добавляем отступы вокруг номера заявки для улучшения визуального восприятия */
+  background-color: rgba(0, 0, 0, 0.3); /* устанавливаем фоновый цвет для номера заявки */
+  color: #fff; /* устанавливаем цвет текста для номера заявки */
+  font-size: 23px;
+  font-weight: bold; /* устанавливаем жирное начертание для номера заявки */
+  text-align: center; /* выравниваем текст по центру */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* добавляем тень для улучшения визуального восприятия */
+}
+
+.welcom {
+  border-radius: 10px;
+  text-align: center;
+  margin: 0px 0px 0px 120px;
+  margin-top: 10px;
+  max-width: 1200px;
+  line-height: 3.0;
+}
+.container {
+  margin-top: -15px;
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background-color: rgba(256,256,256, 0.5);
+}
+
+.welcom wel1 {
+  font-size: 110px;
+  font-weight: 100;
+  color: #FAEBD7;
+font-family: 'Monsieur La Doulaise', cursive;
+  text-shadow: 10px 10px 8px rgba(0,0,0,0.35);
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 30%; /* измененное значение высоты */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcom wel2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.10em solid black;
+  margin: 0 auto;
+  animation: typing 4s steps(30, end), blink-caret .7s step-end infinite;
+  animation-delay: 2s;
+}
+
+/* анимация набора текста */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
+
+.welcom .line {
+  border-bottom: 2px solid #FAEBD7;
+  margin-top: -70px;
+  margin-bottom: 100px;
+}
+
+.button:hover {
+  background-color: rgba(250, 235, 215, 0.5);
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.button {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 24px 48px;
+  border-radius: 10px;
+  font-size: 2em;
+  margin-top: 60px;
+}
+
+.butt{
+  display: flex;
+  justify-content: center;
+}
+
+.lock-icon {
+position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  color: #c2c2c2;
+  margin-right: 30px;
+}
+
+.cen span{
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+ padding: 500px 0px;
+}
+
+.swiper-pagination {
+ padding: 110px 0px;
+}
+
+.col-md-6{
+margin-top: 50px;
+}
+
+.col-md-6 h3{
+background-color:rgba(256,256,256,0.5);
+display: flex;
+justify-content: center;
+border-radius: 30px;
+}
+
+.col-md-6 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  font-size:20px;
+}
+
+/*--------Форма для бронирования---------*/
+
+
+
+.form-control.datepicker {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+}
+
